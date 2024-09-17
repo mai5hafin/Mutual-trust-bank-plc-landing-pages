@@ -1,0 +1,70 @@
+@media (max-width: 400px) {
+    .clients {
+        padding: 30px 15px;
+    }
+
+    .card4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .card4 img {
+        max-width: 100%; /* Prevents images from overflowing */
+        height: auto;
+    }
+
+    .card4-button {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .apps {
+        padding: 60px 20px; /* Reduce padding for smaller screens */
+    }
+
+    .apps-container {
+        padding: 0 15px; /* Reduce inner container padding */
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Set height to auto to avoid overflow */
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Align items in the center */
+    }
+
+    .store {
+        justify-content: center; /* Center store icons */
+        gap: 20px; /* Reduce gap between store icons */
+        flex-direction: column; /* Stack icons vertically */
+    }
+
+    .apps-container img {
+        max-width: 100%; /* Resize images to fit within the screen */
+        margin: 15px 0; /* Adjust margin for spacing */
+    }
+    .store img {
+        width: 100px; /* Reduce size of store images */
+    }
+    .clients {
+        padding: 20px 10px;
+    }
+    .input-box{
+        display: none;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,220 @@
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .top-navbar {
+        padding: 0 50px; /* Moderate padding for tablet */
+        gap: 8px; /* Adjust the gap for tablet */
+        height: 60px; /* Adjust the height for tablet screens */
+    }
+
+    .left p, .right p {
+        font-size: 13px; /* Adjust font size */
+    }
+
+    .vr-line {
+        height: 60px; /* Adjust the height of the vertical line */
+    }
+
+    .left i, .left img, .right i, .right img {
+        padding: 0 10px;
+
+    }
+
+    .bottom-navbar{
+        padding: 0 50px;
+        
+    }
+    .bottom-navbar a{
+        font-size: 14px;
+    }
+
+    .hero-container{
+        margin: 0 50px;
+    }
+    .hero-left{
+        width: 426px;
+    }
+    .hero-p1{
+        font-size:20px;
+    }
+    .hero-p2{
+        font-size: 14px;
+    }
+    .hero-right img{
+        width: 350px;
+        height:430px;
+        margin-top:7px;
+    }
+
+    .partner-section{
+        padding: 0 50px;
+    }
+    .partner-left 
+    .partner-left-p2{
+        font-size: 16px;
+    }
+    .partner-right img{
+        margin-right: 28px;
+    }
+    .partner-right{
+        overflow-x: auto;
+    max-width: 600px; 
+    height: 65px;
+    }
+    .hero-service{
+        padding:  100px 50px ;
+    }
+    .exchange-pt2 img{
+        width: 40%;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    body {
+        padding: 0;
+    }
+
+    .top-navbar {
+        padding: 0 20px; /* Reduce the padding */
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Let the height adjust */
+        gap: 5px; /* Smaller gap */
+    }
+
+    .left, .right {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .vr-line {
+        
+        height: 15px;
+        width: 2px;
+    }
+
+    .left i, .left img, .right i, .right img {
+        padding: 0 5px;
+    }
+
+    .right p, .left p {
+        font-size: 12px;
+    }
+    /* .bottom-navbar {
+        padding: 0 50px;
+        height: auto;
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .bottom-navbar a {
+        margin: 10px 0;
+    }
+
+    .bottom-navbar button {
+        width: 160px;
+        height: 42px;
+    } */
+    .bottom-right-navbar,.bottom-mid-navbar{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .hero-container{
+        margin: 0 30px 0 30px;
+    }
+    .hero-left{
+        width: 400px;
+        height: 28vh;
+        margin-top: 87px;
+        
+    }
+    .hero-p1{
+        font-size:20px;
+        margin-bottom: 0;
+    }
+    .hero-p2{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .hero-right img{
+        width: 275px;
+        height:430px;
+        margin-top:7px;
+    }
+    .partner-section{
+        padding: 0 50px;
+    }
+    
+    .partner-left-p2{
+        font-size: 16px;
+    }
+    .partner-right img{
+        margin-right: 28px;
+    }
+    .partner-right{
+        overflow-x: auto;
+    width: 500px; 
+    height: 65px;
+    }
+    .customer{
+        padding: 70px 30px;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .apps {
+        padding: 100px 80px; /* Reduce padding to fit better on medium screens */
+    }
+
+    .apps-container {
+        padding: 0 50px; /* Reduce padding inside the container */
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Adjust height automatically */
+        justify-content: center; /* Center the content */
+        align-items: center; /* Align content in the center */
+    }
+
+    .store {
+        justify-content: center; /* Center the app store icons */
+        gap: 40px; /* Adjust gap between icons */
+    }
+
+    .apps-container img {
+        max-width: 85%; /* Resize the app image to fit */
+        margin: 20px 0; /* Add margin for spacing */
+    }
+    .footer {
+        padding: 80px 40px;
+    }
+
+    .footer-pt1 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-pt1-pt1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .footer-pt2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-pt3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+
+
+}

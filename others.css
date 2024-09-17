@@ -1,0 +1,21 @@
+
+
+
+@media only screen and  (min-width: 1200px) and (max-width: 1300px) {
+    .hero-left{
+        width: 486px;
+    }
+    .hero-p1{
+        font-size:30px;
+    }
+    .hero-p2{
+        font-size: 16px;
+    }
+    .partner-left 
+    .partner-left-p2{
+        font-size: 16px;
+    }
+    .partner-right img{
+        margin-right: 28px;
+    }
+}

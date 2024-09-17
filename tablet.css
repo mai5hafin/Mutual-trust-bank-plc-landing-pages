@@ -1,0 +1,559 @@
+/* 768-425 */
+
+@media  screen and (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    
+
+    .top-navbar {
+        padding: 0 20px; /* Reduce the padding */
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Let the height adjust */
+        gap: 5px; /* Smaller gap */
+    }
+
+    .left, .right {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .vr-line {
+        
+        height: 15px;
+        width: 2px;
+    }
+
+    .left i, .left img, .right i, .right img {
+        padding: 0 5px;
+    }
+
+    .right p, .left p {
+        font-size: 12px;
+    }
+    .bottom-navbar{
+        padding: 0px 80px;
+    }
+    .menu{
+        display: block;
+    }
+    .hero-section{
+        height: 74vh;
+        background-size: 100vw 32vh;
+        background-repeat: no-repeat;
+    }
+    .hero-container{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .hero-container .hero-left{
+        margin-top: 25px;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .hero-p1{
+        text-align: center;
+        margin-top: 10px;
+        font-size:  0.5rem;
+    }
+    .hero-p2{
+        text-align: left;
+    }
+    .hero-right{
+        height:auto ;
+        
+    }
+    .hero-container .hero-right img{
+        margin-top: 0px ;
+        height: 330px;
+    }
+    .hero-dots{
+        bottom: 0px;
+        
+        background-color:#023020;
+        border-radius: 15px;
+        
+    }
+
+    .partner-section{
+        
+        
+        
+        height: 100px;
+        margin-top: 10px;
+    }
+    .partner-left 
+    .partner-left-p2{
+        font-size: 12px;
+    }
+    .partner-right img{
+        margin-right: 28px;
+    }
+    .partner-right{
+        overflow-x: auto;
+    width: 600px; 
+    height: 65px;
+    }
+    .hero-service{
+        padding: 100px 50px;
+    }
+    .exchange-pt2 img{
+        width: 100%;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .exchange-section{
+        padding:100px 30px;
+    }
+    .exchange-pt2 img{
+        width: 40%;
+    }
+    .service-section{
+        padding: 120px 30px ;
+    }
+    .card2{
+        max-width: 100%;
+    }
+    .service-pt2{
+        justify-content: center;
+    }
+    .card2 .img{
+        max-width:80% ;
+        margin: 0 auto;
+    }
+    .security-section{
+        padding: 64px 30px;
+    }
+    .security-p1{
+        font-size: 2.5rem;
+    }
+    .features-pt2 {
+        flex-direction: column; /* Stack cards vertically */
+        justify-content: center;
+        align-items: center;
+        margin: 40px 50px;
+    }
+
+    .card3 {
+        width: 90%; /* Adjust card width */
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .apps {
+        padding: 80px 50px; /* Reduce padding */
+    }
+    
+    .apps-container {
+        padding: 0 40px;
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Let height adjust automatically */
+        justify-content: center; /* Center the content */
+    }
+
+    .store {
+        justify-content: center; /* Center the app store icons */
+        gap: 30px; /* Reduce gap between icons */
+    }
+
+    .apps-container img {
+        max-width: 80%; /* Resize the app image */
+        margin: 20px 0; /* Add margin between sections */
+    }
+    .clients {
+        padding: 60px 50px;
+    }
+
+    .card4 {
+        flex-direction: column; /* Stack the images vertically */
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card4-button {
+        justify-content: center;
+    }
+    .events {
+        padding: 60px 30px;
+        gap: 20px;
+    }
+
+    .card4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .card4 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .events-pt3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .events-pt3 img {
+        max-width: 50px;
+    }
+
+    .footer {
+        padding: 50px 20px;
+    }
+
+    .footer-pt1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-pt1-pt1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .footer-pt2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-pt3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    body {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .top-navbar {
+        padding: 0 10px; /* Reduce the padding */
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Let the height adjust */
+        gap: 5px; /* Smaller gap */
+    }
+
+    .left, .right {
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .vr-line {
+        
+        height: 15px;
+        width: 2px;
+    }
+
+    .left i, .left img, .right i, .right img {
+        padding: 0 5px;
+    }
+    .right p{
+        margin-right: 0px;
+    }
+    .right i,.right img {
+        margin:0 5px
+    }
+
+    .right p, .left p {
+        font-size: 12px; 
+    }
+    .bottom-right-navbar,.bottom-mid-navbar{
+        display: none;
+    }
+    .bottom-navbar{
+        padding: 0px 40px;
+    }
+
+    .menu{
+        display: block;
+    }
+    .partner-section{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 50px;
+        height: auto;
+    }
+    .partner-left 
+    .partner-left-p2{
+        font-size: 12px;
+    }
+    .partner-right img{
+        margin-right: 28px;
+    }
+    .partner-right{
+        overflow-x: auto;
+    max-width: 200px; 
+    height: 65px;
+    }
+    .hero-section{
+        background-size:100vw 33vh ;
+    }
+    .hero-service{
+        padding: 100px 30px;
+    }
+    .exchange-pt2 img{
+        width: 100%;
+    }
+    .service-section{
+        padding: 120px 30px ;
+    }
+    .card2{
+        max-width: 100%;
+    }
+    .card2 .img{
+        max-width:80% ;
+        margin: 0 auto;
+    }
+    .security-section{
+        padding: 64px 30px;
+    }
+    .security-p1{
+        font-size: 2.5rem;
+    }
+    .customer{
+        padding: 70px 30px;
+        
+    }
+    .customer img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-section{
+        height: calc(100vh - 200px);
+        
+    }
+    .hero-left{
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        width: 370px !important;
+    }
+    .hero-left img{
+        width: 60%;
+    }
+    .hero-p1 {
+        text-align: left;
+        line-height: 25px;
+    }
+    .hero-p2{
+        max-width: 300px;
+        white-space: normal;
+        margin-top: 10px;
+    }
+    
+    /* .hero-button {
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+    .hero-button button{
+        width: 70%;
+    }
+    /* .hero-right{
+        position: relative;
+        height: 260px;
+        width: 100%;
+
+    }
+    .hero-right img{
+        position: absolute;
+        
+        bottom: -70px;
+        
+    } */
+    .vr-line {
+        margin:0 0 0 3px;
+    }
+    .right i, .right img {
+        margin: 0 0px;
+    }
+    .right img {
+        width: 100px;
+        
+    }
+    .hero-container{
+        margin-left: 20px;
+    }
+    .hero-dots{
+        bottom: 0px;
+        left: 35%;
+        background-color:#023020;
+        border-radius: 15px;
+        
+    }
+    .hero-service{
+        padding: 100px 30px;
+    }
+    .heading{
+        font-size: 1rem;
+    }
+    .hs-pt2{
+        justify-content: center;
+    }
+    .exchange-section{
+        padding:100px 30px;
+    }
+    .exchange-pt2 img{
+        width: 100%;
+    }
+    .service-section{
+        padding: 120px 30px ;
+    }
+    .service-pt3{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card2{
+        max-width: 100%;
+    }
+    .card2 .img{
+        max-width:80% ;
+        margin: 0 auto;
+    }
+    .security-section{
+        padding: 64px 30px;
+    }
+    .security-p1{
+        font-size: 2.5rem;
+    }
+    .features-pt2{
+        justify-content: flex-start;
+    }
+    .features-pt2 {
+        margin: 60px 10px; /* Reduce margin to fit the screen */
+        gap: 20px;    /* Smaller gap between the cards */
+    }
+
+    .card3 {
+        width: 100%;  /* Make the card take up the full width */
+        padding: 16px; /* Reduce padding to fit the smaller screen */
+        height: auto;  /* Allow height to adjust dynamically */
+    }
+
+    .card-heading {
+        font-size: 1.1rem; /* Adjust heading font size for readability */
+    }
+
+    .card-p {
+        font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+
+    .ic img {
+        width: 40px; /* Reduce the size of the icons */
+        height: auto;
+    }
+    .customer{
+        padding: 70px 30px;
+        
+    }
+    .customer img{
+        width: 100%;
+    }
+    .apps {
+        padding: 40px 20px; /* Further reduce padding for smaller screens */
+    }
+
+    .apps-container {
+        padding: 0 20px;
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Let height adjust automatically */
+    }
+
+    .store {
+        justify-content: center; /* Center app store icons */
+        gap: 20px; /* Reduce gap between the icons */
+    }
+
+    .apps-container img {
+        max-width: 50%; /* Resize the app image to fit the mobile screen */
+        margin: 20px 0; /* Add space between the sections */
+    }
+    .clients {
+        padding: 40px 20px;
+    }
+
+    .card4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card4-button {
+        justify-content: center;
+    }
+
+    
+    
+    
+
+    .card4-button {
+        justify-content: center;
+    }
+    .events{
+        padding: 40px 20px;
+    }
+    .footer {
+        padding: 40px 15px;
+    }
+
+    .footer-pt1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-pt1-pt1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .footer-pt2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-pt3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer-pt1 .icon {
+        width: 100%;
+        background-position: 15px 15px;
+        padding-left: 50px;
+    }
+    .input-box {
+        max-width: 200px; /* Ensure input box remains within the viewport */
+        padding: 8px; /* Reduce padding if necessary */
+        font-size: 14px; /* Adjust font size if needed */
+    }
+    
+
+}
+
+
+
+
